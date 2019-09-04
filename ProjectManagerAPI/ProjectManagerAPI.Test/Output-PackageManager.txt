@@ -1,0 +1,21 @@
+﻿
+
+Attempting to gather dependency information for package 'OpenCover.4.7.922' with respect to project 'ProjectManagerAPI.Test', targeting '.NETFramework,Version=v4.6.1'
+Gathering dependency information took 229.87 ms
+Attempting to resolve dependencies for package 'OpenCover.4.7.922' with DependencyBehavior 'Lowest'
+Resolving dependency information took 0 ms
+Resolving actions to install package 'OpenCover.4.7.922'
+Resolved actions to install package 'OpenCover.4.7.922'
+Retrieving package 'OpenCover 4.7.922' from 'nuget.org'.
+  GET https://api.nuget.org/v3-flatcontainer/opencover/4.7.922/opencover.4.7.922.nupkg
+  OK https://api.nuget.org/v3-flatcontainer/opencover/4.7.922/opencover.4.7.922.nupkg 52ms
+Installing OpenCover 4.7.922.
+Adding package 'OpenCover.4.7.922', which only has tools group, to project 'ProjectManagerAPI.Test'
+Adding package 'OpenCover.4.7.922' to folder 'C:\Users\Subrat\Documents\FSDTraining\FSEFINAL_CERT\ProjectManagerAPI\packages'
+Added package 'OpenCover.4.7.922' to folder 'C:\Users\Subrat\Documents\FSDTraining\FSEFINAL_CERT\ProjectManagerAPI\packages'
+Added package 'OpenCover.4.7.922' to 'packages.config'
+Successfully installed 'OpenCover 4.7.922' to ProjectManagerAPI.Test
+Executing nuget actions took 11.37 sec
+Time Elapsed: 00:00:11.8315823
+========== Finished ==========
+

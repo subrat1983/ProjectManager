@@ -39,3 +39,10 @@ C:\Users\Subrat\Documents\FSDTraining\Projectmanager\ProjectManagerAPI\ProjectMa
 C:\Users\Subrat\Documents\FSDTraining\Projectmanager\ProjectManagerAPI\ProjectManager.PerformanceTest\obj\Debug\ProjectManagerAPI.PerformanceTest.csproj.CoreCompileInputs.cache
 C:\Users\Subrat\Documents\FSDTraining\Projectmanager\ProjectManagerAPI\ProjectManager.PerformanceTest\obj\Debug\ProjectManager.PerformanceTest.dll
 C:\Users\Subrat\Documents\FSDTraining\Projectmanager\ProjectManagerAPI\ProjectManager.PerformanceTest\obj\Debug\ProjectManager.PerformanceTest.pdb
+C:\Users\Subrat\Documents\FSDTraining\Projectmanager\ProjectManagerAPI\ProjectManager.PerformanceTest\bin\Debug\ProjectManager.PerformanceTest.dll.config
+C:\Users\Subrat\Documents\FSDTraining\Projectmanager\ProjectManagerAPI\ProjectManager.PerformanceTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Subrat\Documents\FSDTraining\Projectmanager\ProjectManagerAPI\ProjectManager.PerformanceTest\bin\Debug\WebGrease.dll
+C:\Users\Subrat\Documents\FSDTraining\Projectmanager\ProjectManagerAPI\ProjectManager.PerformanceTest\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Subrat\Documents\FSDTraining\Projectmanager\ProjectManagerAPI\ProjectManager.PerformanceTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Subrat\Documents\FSDTraining\Projectmanager\ProjectManagerAPI\ProjectManager.PerformanceTest\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\Subrat\Documents\FSDTraining\Projectmanager\ProjectManagerAPI\ProjectManager.PerformanceTest\obj\Debug\ProjectManagerAPI.PerformanceTest.csproj.ProjectManager.PerformanceTest.dll.config

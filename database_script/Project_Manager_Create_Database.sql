@@ -1,13 +1,13 @@
 USE [master]
 GO
 
-/****** Object:  Database [ProjectManager]    Script Date: 08/16/2019 07:25:13 PM ******/
+/****** Object:  Database [ProjectManager]    Script Date: 9/6/2019 1:18:36 AM ******/
 CREATE DATABASE [ProjectManager]
  CONTAINMENT = NONE
  ON  PRIMARY 
-( NAME = N'ProjectManager', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL11.MSSQLSERVER\MSSQL\DATA\ProjectManager.mdf' , SIZE = 4096KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB )
+( NAME = N'ProjectManager', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA\ProjectManager.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB )
  LOG ON 
-( NAME = N'ProjectManager_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL11.MSSQLSERVER\MSSQL\DATA\ProjectManager_log.ldf' , SIZE = 1024KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
+( NAME = N'ProjectManager_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA\ProjectManager_log.ldf' , SIZE = 1024KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
 GO
 
 ALTER DATABASE [ProjectManager] SET COMPATIBILITY_LEVEL = 110
@@ -35,9 +35,6 @@ ALTER DATABASE [ProjectManager] SET ARITHABORT OFF
 GO
 
 ALTER DATABASE [ProjectManager] SET AUTO_CLOSE OFF 
-GO
-
-ALTER DATABASE [ProjectManager] SET AUTO_CREATE_STATISTICS ON 
 GO
 
 ALTER DATABASE [ProjectManager] SET AUTO_SHRINK OFF 
@@ -104,6 +101,12 @@ ALTER DATABASE [ProjectManager] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF )
 GO
 
 ALTER DATABASE [ProjectManager] SET TARGET_RECOVERY_TIME = 0 SECONDS 
+GO
+
+ALTER DATABASE [ProjectManager] SET DELAYED_DURABILITY = DISABLED 
+GO
+
+ALTER DATABASE [ProjectManager] SET QUERY_STORE = OFF
 GO
 
 ALTER DATABASE [ProjectManager] SET  READ_WRITE 

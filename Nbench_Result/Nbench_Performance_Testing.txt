@@ -1,0 +1,20 @@
+
+C:\Users\Subrat\Documents\FSDTraining\Projectmanager\ProjectManagerAPI\packages\NBench.Runner.1.2.2\tools\net452>NBench.Runner "C:\Users\Subrat\Documents\FSDTraining\Projectmanager\ProjectManagerAPI\ProjectManager.PerformanceTest\bin\Debug\ProjectManager.PerformanceTest.dll"
+Executing Benchmarks in C:\Users\Subrat\Documents\FSDTraining\Projectmanager\ProjectManagerAPI\ProjectManager.PerformanceTest\bin\Debug\ProjectManager.PerformanceTest.dll
+------------ STARTING ProjectManagerAPI.PerformanceTest.PerformanceTest+PerformanceTests ----------
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:01.0168475
+Elapsed Time - ms: 1,016.00 ,ms: /s 999.17 , ns / ms: 1,000,834.15
+--------------- END RUN ---------------
+
+--------------- RESULTS: ProjectManagerAPI.PerformanceTest.PerformanceTest+PerformanceTests ---------------
+--------------- DATA ---------------
+Elapsed Time: Max: 1,016.00 ms, Average: 1,016.00 ms, Min: 1,016.00 ms, StdDev: 0.00 ms
+Elapsed Time: Max / s: 999.17 ms, Average / s: 999.17 ms, Min / s: 999.17 ms, StdDev / s: 0.00 ms
+
+--------------- ASSERTIONS ---------------
+[PASS] Expected Elapsed Time to must be less than or equal to 5,000.00 ms; actual value was 1,016.00 ms.
+
+------------ FINISHED ProjectManagerAPI.PerformanceTest.PerformanceTest+PerformanceTests ----------
+
+C:\Users\Subrat\Documents\FSDTraining\Projectmanager\ProjectManagerAPI\packages\NBench.Runner.1.2.2\tools\net452>
